@@ -2,8 +2,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
-
-.weatherCard {
-    margin: auto;
+.weatherCard{
+    background-image: url("/images/7f631e577ed5e5ffbbce726f8ec03489.jpg");
+}
+.allElement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
