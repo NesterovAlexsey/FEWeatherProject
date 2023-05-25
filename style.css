@@ -5,7 +5,7 @@ body {
     
   }
 .weatherCard{
-    background-image: url("./images/7f631e577ed5e5ffbbce726f8ec03489.jpg");
+    background-image: url("sky.jpg");
 }
 .allElement {
     display: flex;
