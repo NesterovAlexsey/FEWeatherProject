@@ -12,26 +12,29 @@
 
 <body>
     <div class="weatherCard">
-        <div id="transparentFrame">
-            <div class="allElement", id="article">
-                <h1>Weather Right Now</h1>
-            </div>
-            <div class="allElement">
-                <p>City: </p>
-                <p id="city"></p>
-            </div>
-            <div class="allElement">
-                <p>Temperatur:</p>
-                <p id="temperature"></p>
-            </div>
-            <div class="allElement">
-                <p>Wind:</p>
-                <p id="windSpead"></p>
-            </div>
-            <div class="allElement">
-                <p id="wheatherCode"></p>
-            </div>
+        <div class="allElement", class="info" , id="article">
+            <h1>Weather Right Now</h1>
         </div>
+        <div class="allElement info", class="info">
+            <p class="parameter">City: </p>
+            <p id="city"></p>
+            <img src="pos5.png" id="position">
+        </div>
+        <div class="allElement info", class="info">
+            <p class="parameter">Temperatur:</p>
+            <p id="temperature"></p>
+            <p class="since">C</p>
+        </div>
+        <div class="allElement info", class="info">
+            <p class="parameter">Wind:</p>
+            <p id="windSpead"></p>
+            <p class="since">km/h</p>
+            <img src="wind.png" id="position">
+        </div>
+        <div class="allElement info", class="info">
+            <p id="wheatherCode"></p>
+        </div>
+
     </div>
 </body>
 
