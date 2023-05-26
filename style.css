@@ -5,8 +5,12 @@ body {
     
   }
 .weatherCard{
-    background-image: url("sky.jpg");
+    background-image: url("last.jfif");
+    background-size: contain;
+    width: 500px;
+    height: 280px;
 }
+
 .allElement {
     display: flex;
     justify-content: center;
